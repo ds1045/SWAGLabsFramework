@@ -1,0 +1,224 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>12/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Aug 07 07:14:38 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (197 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>regression </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testNG.SampleTest.deleteUserProfile()'><b>deleteUserProfile</b><br>Test class: testNG.SampleTest<br/>
+<a href="#Output-1810742349" onClick='toggleBox("Output-1810742349", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1810742349" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1810742349">
+User Profile Deleted successfully!<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNG.SampleTest@443118b0</td></tr>
+<tr>
+<td title='testNG.SamplePriorityInvocationCountTest.modifyUserProfile()'><b>modifyUserProfile</b><br>Test class: testNG.SamplePriorityInvocationCountTest<br/>
+<a href="#Output-270095066" onClick='toggleBox("Output-270095066", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-270095066" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-270095066">
+User Profile Modified successfully!<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNG.SamplePriorityInvocationCountTest@5e0e82ae</td></tr>
+<tr>
+<td title='testNG.SampleDependsOnMethodsTest.createUserProfile()'><b>createUserProfile</b><br>Test class: testNG.SampleDependsOnMethodsTest<br/>
+<a href="#Output-702061917" onClick='toggleBox("Output-702061917", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-702061917" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-702061917">
+User Profile Created successfully!<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNG.SampleDependsOnMethodsTest@2d3379b4</td></tr>
+<tr>
+<td title='testNG.SamplePriorityInvocationCountTest.createUserProfile()'><b>createUserProfile</b><br>Test class: testNG.SamplePriorityInvocationCountTest<br/>
+<a href="#Output-363509958" onClick='toggleBox("Output-363509958", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-363509958" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-363509958">
+User Profile Created successfully!<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNG.SamplePriorityInvocationCountTest@5e0e82ae</td></tr>
+<tr>
+<td title='testNG.SampleTest.createUserProfile()'><b>createUserProfile</b><br>Test class: testNG.SampleTest<br/>
+<a href="#Output-460201727" onClick='toggleBox("Output-460201727", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-460201727" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-460201727">
+User Profile Created successfully!<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNG.SampleTest@443118b0</td></tr>
+<tr>
+<td title='testNG.SampleDependsOnMethodsTest.modifyUserProfile()'><b>modifyUserProfile</b><br>Test class: testNG.SampleDependsOnMethodsTest<br/>
+<a href="#Output-2033968586" onClick='toggleBox("Output-2033968586", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2033968586" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2033968586">
+User Profile Modified successfully!<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNG.SampleDependsOnMethodsTest@2d3379b4</td></tr>
+<tr>
+<td title='testNG.SamplePriorityInvocationCountTest.deleteUserProfile()'><b>deleteUserProfile</b><br>Test class: testNG.SamplePriorityInvocationCountTest<br/>
+<a href="#Output-1806431167" onClick='toggleBox("Output-1806431167", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1806431167" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1806431167">
+User Profile Deleted successfully!<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNG.SamplePriorityInvocationCountTest@5e0e82ae</td></tr>
+<tr>
+<td title='testNG.SamplePriorityInvocationCountTest.createUserProfile()'><b>createUserProfile</b><br>Test class: testNG.SamplePriorityInvocationCountTest<br/>
+<a href="#Output-865667596" onClick='toggleBox("Output-865667596", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-865667596" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-865667596">
+User Profile Created successfully!<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNG.SamplePriorityInvocationCountTest@5e0e82ae</td></tr>
+<tr>
+<td title='testNG.SamplePriorityInvocationCountTest.createUserProfile()'><b>createUserProfile</b><br>Test class: testNG.SamplePriorityInvocationCountTest<br/>
+<a href="#Output-1306834002" onClick='toggleBox("Output-1306834002", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1306834002" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1306834002">
+User Profile Created successfully!<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNG.SamplePriorityInvocationCountTest@5e0e82ae</td></tr>
+<tr>
+<td title='testNG.SamplePriorityInvocationCountTest.modifyUserProfile()'><b>modifyUserProfile</b><br>Test class: testNG.SamplePriorityInvocationCountTest<br/>
+<a href="#Output-1354083458" onClick='toggleBox("Output-1354083458", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1354083458" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1354083458">
+User Profile Modified successfully!<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNG.SamplePriorityInvocationCountTest@5e0e82ae</td></tr>
+<tr>
+<td title='testNG.SampleTest.modifyUserProfile()'><b>modifyUserProfile</b><br>Test class: testNG.SampleTest<br/>
+<a href="#Output-154319946" onClick='toggleBox("Output-154319946", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-154319946" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-154319946">
+User Profile Modified successfully!<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNG.SampleTest@443118b0</td></tr>
+<tr>
+<td title='testNG.SampleDependsOnMethodsTest.deleteUserProfile()'><b>deleteUserProfile</b><br>Test class: testNG.SampleDependsOnMethodsTest<br/>
+<a href="#Output-48208774" onClick='toggleBox("Output-48208774", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-48208774" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-48208774">
+User Profile Deleted successfully!<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testNG.SampleDependsOnMethodsTest@2d3379b4</td></tr>
+</table><p>
+</body>
+</html>
